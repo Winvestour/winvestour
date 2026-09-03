@@ -3,7 +3,7 @@
 # Kaynak monorepo'daki desktop/ ile senkron tutulur (6 Agu 2026).
 [package]
 name = "winvestour-desktop"
-version = "1.0.5"
+version = "1.0.1"
 description = "Winvestour - Tum isletmen tek uygulamada"
 authors = ["Winvestour LLC"]
 edition = "2021"
