@@ -39,12 +39,10 @@ This shell contains **no application logic** — it's a thin native window aroun
 ## Screenshots
 
 <div align="center">
-<img src="assets/desktop-1.webp" alt="Winvestour on desktop" width="520">&nbsp;
-<img src="assets/tablet-1.webp" alt="Winvestour on tablet" width="210">
-<br><br>
-<img src="assets/phone-1.webp" alt="" width="170">&nbsp;
-<img src="assets/phone-2.webp" alt="" width="170">&nbsp;
-<img src="assets/phone-3.webp" alt="" width="170">
+<img src="assets/phone-1.webp" alt="Winvestour screenshot 1" width="190">&nbsp;
+<img src="assets/phone-2.webp" alt="Winvestour screenshot 2" width="190">&nbsp;
+<img src="assets/phone-3.webp" alt="Winvestour screenshot 3" width="190">&nbsp;
+<img src="assets/phone-4.webp" alt="Winvestour screenshot 4" width="190">
 <br><br>
 <a href="https://www.winvestour.com/winvestour/screenshots">See all screenshots →</a>
 </div>
