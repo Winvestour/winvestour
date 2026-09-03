@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Wommerce",
+  "version": "1.0.5",
+  "identifier": "com.winvestour.commerce.desktop",
+  "build": {
+    "frontendDist": "../splash"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "nsis",
+      "msi",
+      "deb",
+      "rpm",
+      "appimage"
+    ],
+    "publisher": "Winvestour LLC",
+    "copyright": "© 2026 Winvestour LLC",
+    "shortDescription": "Wommerce - e-Ticaret",
+    "longDescription": "Wommerce: Winvestour e-ticaret magaza yonetimi.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.ico"
+    ]
+  },
+  "mainBinaryName": "Wommerce"
+}

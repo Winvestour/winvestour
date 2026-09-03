@@ -1,0 +1,15 @@
+{
+  "name": "winvestour-desktop",
+  "private": true,
+  "version": "1.0.5",
+  "description": "Winvestour desktop shell (Tauri v2, remote-URL) — native window for https://www.winvestour.com/winvestour",
+  "license": "MIT",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}

@@ -1,0 +1,23 @@
+# Winvestour (cati) masaustu kabugu — Tauri v2, remote-URL.
+# Icerik canli winvestour.com; kabuk pencere + UA damgasi tasir. Is mantigi YOK.
+# Kaynak monorepo'daki desktop/ ile senkron tutulur (6 Agu 2026).
+[package]
+name = "winvestour-desktop"
+version = "1.0.5"
+description = "Winvestour - Tum isletmen tek uygulamada"
+authors = ["Winvestour LLC"]
+edition = "2021"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-single-instance = "2"
+tauri-plugin-window-state = "2"
+tauri-plugin-opener = "2"
+
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1

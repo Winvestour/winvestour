@@ -1,0 +1,26 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "remote-winvestour-window",
+  "description": "Canli winvestour.com sayfasina pencere-kontrol izinleri (ozel baslik cubugu: surukle/kucult/buyut/kapat) + main.rs'teki on_new_window handler'inin sistem tarayicisinda actigi HARICI baglantilar icin opener:allow-open-url (31 Tem: eskiden sadece winvestour.com'a izin veriyordu, on_new_window'un asil amaci olan DIS baglanti acma senaryosunu kapsam disi birakip sessizce reddediyordu). Baska hicbir Tauri API'si uzak icerige acik degil.",
+  "remote": {
+    "urls": ["https://www.winvestour.com", "https://winvestour.com"]
+  },
+  "windows": ["main"],
+  "permissions": [
+    "core:window:allow-start-dragging",
+    "core:window:allow-minimize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-is-maximized",
+    "core:window:allow-close",
+    "core:window:allow-hide",
+    {
+      "identifier": "opener:allow-open-url",
+      "allow": [
+        { "url": "https://**" },
+        { "url": "http://**" },
+        { "url": "mailto:*" },
+        { "url": "tel:*" }
+      ]
+    }
+  ]
+}
