@@ -36,6 +36,13 @@ This shell contains **no application logic** — it's a thin native window aroun
 - Window size/position remembered between launches
 - No telemetry, no bundled secrets, no local data storage beyond what the browser session already does
 
+## Highlights
+
+| | | |
+|---|---|---|
+| ✨ **AI everywhere — text, images, logos, video and site design inside the app** | 🌐 **33 languages — the app and your store open in your customer’s language** | 🔗 **Your own domain — buy one or connect an existing one; hosting included** |
+| 💳 **Secure payments — card details never reach our servers; Stripe processes them** | 🧩 **One panel — all four products under one account; switch anytime** | 🛡️ **Your data stays yours — delete your account or export your data anytime** |
+
 ## Screenshots
 
 <div align="center">
@@ -65,6 +72,60 @@ Output installers land in `src-tauri/target/release/bundle/`.
 | Windows 10/11 | `.exe` (NSIS), `.msi` | ✅ |
 | Linux | `.deb`, `.rpm`, `.AppImage` | ✅ (built via CI) |
 | macOS | — | Not planned |
+
+## Frequently asked questions
+
+<details><summary><b>What does the Winvestour app do?</b></summary><br>
+Winvestour lets you run your entire business from one app: your online store, your social media posting, your reseller and influencer earnings, plus hosting and domains all live in the same account.
+</details>
+
+<details><summary><b>Do I have to use the five products separately?</b></summary><br>
+No. One free Winvestour account gives you access to Wommerce, Wocial, Winfluencers and Wellers. Use the ones you need and simply never open the rest.
+</details>
+
+<details><summary><b>Which devices does it work on?</b></summary><br>
+It runs on Android phones and tablets, on Windows computers and in the web browser. Sign in with the same account on all three and your data stays in sync everywhere.
+</details>
+
+<details><summary><b>Does an account cost anything?</b></summary><br>
+No. A Winvestour account is free and needs no credit card. You can build your store on the free-forever plan; you only pay when you add a premium feature or service.
+</details>
+
+<details><summary><b>Can I buy hosting and a domain too?</b></summary><br>
+Yes. Domain registration and hosting are purchased from the same dashboard, and renewals are tracked there as well. You never have to manage a server yourself.
+</details>
+
+<details><summary><b>How many languages is it available in?</b></summary><br>
+The app is available in 33 languages and fully supports right-to-left scripts. You pick your language in account settings; your store's language is configured separately.
+</details>
+
+More answers on the [Winvestour website](https://www.winvestour.com/winvestour) and the [Winvestour organization page](https://github.com/Winvestour).
+
+## More from Winvestour
+
+One free account gives you all Winvestour apps.
+
+<table><tr>
+<td align="center" width="25%"><a href="https://github.com/Winvestour/wommerce"><img src="https://github.com/Winvestour/.github/raw/main/profile/assets/icon-wommerce.png" width="48" alt=""><br><b>Wommerce</b></a><br><sub><a href="https://www.winvestour.com/wommerce">Website</a></sub></td>
+<td align="center" width="25%"><a href="https://github.com/Winvestour/wocial"><img src="https://github.com/Winvestour/.github/raw/main/profile/assets/icon-wocial.png" width="48" alt=""><br><b>Wocial</b></a><br><sub><a href="https://www.winvestour.com/wocial">Website</a></sub></td>
+<td align="center" width="25%"><a href="https://github.com/Winvestour/winfluencers"><img src="https://github.com/Winvestour/.github/raw/main/profile/assets/icon-winfluencers.png" width="48" alt=""><br><b>Winfluencers</b></a><br><sub><a href="https://www.winvestour.com/winfluencers">Website</a></sub></td>
+<td align="center" width="25%"><a href="https://github.com/Winvestour/wellers"><img src="https://github.com/Winvestour/.github/raw/main/profile/assets/icon-wellers.png" width="48" alt=""><br><b>Wellers</b></a><br><sub><a href="https://www.winvestour.com/wellers">Website</a></sub></td>
+</tr></table>
+
+<div align="center">
+
+### Winvestour is free. Start today.
+
+Creating an account and using the app is free. You only pay for the paid services you actually use.
+
+<a href="https://www.winvestour.com/register"><img src="https://img.shields.io/badge/Create_a_free_account-00468C?style=for-the-badge" alt="Create a free account" height="36"></a>&nbsp;
+<a href="https://github.com/Winvestour/winvestour/releases/latest"><img src="https://img.shields.io/badge/Download-00468C?style=for-the-badge&logo=github&logoColor=white" alt="Download" height="36"></a>
+
+[Website](https://www.winvestour.com) · [About](https://www.winvestour.com/about) · [Blog](https://www.winvestour.com/blog) · [Contact](https://www.winvestour.com/contact) · [Privacy](https://www.winvestour.com/privacy) · [Terms](https://www.winvestour.com/terms)
+
+[X](https://x.com/winvestour) · [Instagram](https://instagram.com/winvestour) · [LinkedIn](https://www.linkedin.com/in/winvestour-llc-940a6641b/) · [YouTube](https://www.youtube.com/@Winvestour) · [info@winvestour.com](mailto:info@winvestour.com)
+
+</div>
 
 ## License
 
